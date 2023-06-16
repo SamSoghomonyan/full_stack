@@ -1,0 +1,32 @@
+.emloyee {
+  display: block;
+  height: 190px;
+  width: 950px;
+  border: 2px solid rgb(55, 176, 251);
+  background-color: rgb(12, 31, 43);
+  border-radius: 8px;
+  color: wheat;
+}
+.element {
+  float: left;
+}
+.editDelete {
+  float: right;
+}
+
+.editDelete button {
+  height: 30px;
+  width: 80px;
+  background-color: white;
+  border: 2px solid rgb(55, 176, 251);
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.editDelete button:hover {
+  background-color: rgb(55, 176, 251);
+  border: 2px solid wheat;
+  color: wheat;
+}
